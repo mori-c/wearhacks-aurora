@@ -2,7 +2,7 @@
 
 
 /* S02 header */
-h2.slogan-quote {
+.js .slide h2.slogan-quote {
     font-weight: 100;
     font-style: italic;
     letter-spacing: .5em;
