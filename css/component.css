@@ -188,7 +188,7 @@ button.slider-switch:hover {
 
 .js .slide h2 {
 	color: #fff;
-	position: absolute;
+	/* position: absolute; */
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
@@ -209,6 +209,7 @@ button.slider-switch:hover {
 	    font-family: 'Futura';
 	    font-size: 4.5em;
 	    line-height: 1em;
+	    display: block;
 }
 
 .img-dragger-small .slide h2 {
