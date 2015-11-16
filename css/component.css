@@ -251,19 +251,20 @@ button.slider-switch:hover {
 }
 
 button.content-switch {
-    background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_down-32.png);
-    background-repeat: no-repeat;
+    
+    /* background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_down-32.png); */
+    /* background-repeat: no-repeat; */
     border: 2px solid #fff;
     width: 160px;
-    background-position: center center;
+    /* background-position: center center; */
     overflow: hidden;
     white-space: nowrap;
-    /* background: black; */
-    /* color: #fff; */
+    background: transparent;
+    color: #fff;
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'font-awesome'; */
     position: absolute;
-    /* cursor: pointer; */
+    cursor: pointer;
     top: 100%;
     left: 50%;
     -webkit-transform: translate3d(-50%,-200%,0);
