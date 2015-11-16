@@ -208,7 +208,7 @@ button.slider-switch:hover {
 	    transform: translate3d(0,-50%,0);
 	    font-family: 'Futura';
 	    font-size: 4.5em;
-	    line-height: 1em;
+	    line-height: 1.25em;
 	    display: block;
 }
 
