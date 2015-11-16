@@ -109,15 +109,15 @@ a:hover, a:focus {
 }
 
 .info span.info-drag {
-	background-image: url(../img/drag.svg);
+	background-image: url(http://tympanus.net/Development/DraggableDualViewSlideshow/img/drag.svg);
 }
 
 .info span.info-keys {
-	background-image: url(../img/keys.svg);
+	background-image: url(http://tympanus.net/Development/DraggableDualViewSlideshow/img/keys.svg);
 }
 
 .info span.info-switch {
-	background-image: url(../img/switchmin.svg);
+	background-image: url(http://tympanus.net/Development/DraggableDualViewSlideshow/img/switchmin.svg);
 	background-size: 65%;
 }
 
