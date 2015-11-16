@@ -1,4 +1,5 @@
 @font-face {
+	/*
 	font-family: 'feathericons';
 	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?2h4ajg');
 	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?#iefix2h4ajg') format('embedded-opentype'),
@@ -7,6 +8,7 @@
 		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.svg?2h4ajg#feathericons') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	*/
 }
 
 html, 
@@ -39,7 +41,7 @@ html.js,
 }
 
 .dragslider h2 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lato', serif;
 	font-size: 8em;
 	font-weight: 700;
 	margin: 0 auto;
@@ -252,8 +254,7 @@ button.slider-switch:hover {
 
 /* top button in SH# */
 button.content-switch {
-background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_up-32.png);
-
+/* background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_up-32.png); */
     border-radius: 50%;
     border: 2px solid #fff;
     width: 60px;
@@ -262,8 +263,6 @@ background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_
     white-space: nowrap;
     background: transparent;
     color: #fff;
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'font-awesome'; */
     position: absolute;
     cursor: pointer;
     top: 100%;
@@ -275,13 +274,11 @@ background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 1px;
-    /* font-weight: 400; */
     outline: none;
     z-index: 1000;
     opacity: 0.7;
     -webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
     transition: transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
-    /* border: 1px solid red; */
 }
 
 .no-js button.content-switch {
@@ -316,15 +313,15 @@ button.content-switch::before {
     overflow: hidden;
     background-position: center center;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    /* border-radius: 50%;
     border: 2px solid #fff;
     width: 60px;
-    height: 60px;
+    height: 60px; */
 }
 
 .show-content .current button.content-switch::before {
 	background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_up-32.png);
-	border: 1px dotted blue;
+	/* border: 1px dotted blue; */
 }
 
 /* Content */
