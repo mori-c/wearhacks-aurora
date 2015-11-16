@@ -46,7 +46,7 @@ img.aurora-skeleton-viz-img-2 {
     letter-spacing: .5em; 
     padding: .5em;
     text-align: center;
-    color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,.2);
     font-weight: 800;
     z-index: 10;
 }
