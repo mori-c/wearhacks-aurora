@@ -27,8 +27,11 @@ img.aurora-skeleton-viz-img-2 {
 /* S02 header */
 .js .slide h2.slogan-quote {
     font-weight: 100;
-    font-style: italic;
-    letter-spacing: .5em;
+    /* font-style: italic; */
+    letter-spacing: .5em; 
     padding: .5em;
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+    font-weight: 800;
 }
 
