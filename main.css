@@ -2,7 +2,7 @@
 
 
 /* S02 header */
-h2 .slogan-quote {
+h2.slogan-quote {
     line-height: 1.5em;
     font-size: 80%;
     font-style: italic;
