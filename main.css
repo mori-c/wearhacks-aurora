@@ -26,19 +26,18 @@ img.aurora-skeleton-viz-img-1 {
 
 /* S02 header */
 .slide.SH2.current {
-    background: url(https://cloud.githubusercontent.com/assets/4642277/11176707/6bb89836-8c0d-11e5-8925-98469435e8ad.png);
+    background: url(http://biomath.math.nd.edu/compbio/PhoneNetwork/continental0p001.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(88,133,159,.5);
     z-index: 0;
-    background: rgb(0,0,0);
 }
 
 img.aurora-skeleton-viz-img-2 {
-      opacity: .25;
-    transform: scale(0.73);
+    opacity: .25;
+    /*transform: scale(0.73);
     padding-bottom: 1em;
-    z-index: 2;
+    z-index: 10;*/
 }
 
 .js .slide h2.slogan-quote {
@@ -49,6 +48,7 @@ img.aurora-skeleton-viz-img-2 {
     text-align: center;
     color: rgba(0,0,0,0.4);
     font-weight: 800;
+    z-index: 10;
 }
 
 /* SH04 */
