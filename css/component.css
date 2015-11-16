@@ -194,11 +194,22 @@ button.slider-switch:hover {
 }
 
 .js .img-dragger-large .slide h2 {
+	/*
 	width: 70%;
 	left: 15%;
 	top: 50%;
 	-webkit-transform: translate3d(0,-50%,0);
 	transform: translate3d(0,-50%,0);
+	*/
+	    margin: 0 auto;
+	    vertical-align: middle;
+	    top: 50%;
+	    -webkit-transform: translate3d(0,-50%,0);
+	    transform: translate3d(0,-50%,0);
+	    font-family: 'Futura';
+	    font-size: 4.5em;
+	    line-height: 1em;
+	    letter-spacing: .3em;
 }
 
 .img-dragger-small .slide h2 {
