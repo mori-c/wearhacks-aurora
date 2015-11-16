@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>AURORA</title>
+		<meta name="description" content="Draggable Dual-View Slideshow: A Slideshow with two views and content area" />
+		<meta name="keywords" content="draggable, slideshow, fullscreen, carousel, views, zoomed, 3d transform, perspective, dragdealer" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HoverEffectIdeas/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19332"><span>Back to the Codrops Article</span></a></span>
+			</div -->
+			<header id="header" class="codrops-header">
+				<h1>AURORA</h1>
+				<span class="message">This mobile version does not have the slideshow switch</span>
+				<button class="slider-switch">Switch view</button>
+			</header>
+
+			<!-- INSTRUCTIONS -->
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>Demo interactions</h2>
+					<span class="info-drag">Drag Sliders</span>
+					<span class="info-keys">Use Arrows</span>
+					<span class="info-switch">Switch view</span>
+					<button>Got it!</button>	
+				</div>
+			</div>
+
+			<!-- AURORA CONTENT -->
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+
+						<!-- SECTION HEADER 01 -->
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap"><img src="img/1.jpg" alt="img1"/></div>
+							<h2>S01<span>ispum lorem</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 02 -->
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/2.jpg" alt="img2"/></div>
+							<h2>S02<span>ipsum</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 03 -->
+						<div class="slide" data-content="content-3">
+							<div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+							<h2>S03<span>text</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 04 -->
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/4.jpg" alt="img4"/></div>
+							<h2>S04<span>text</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 05 -->
+						<div class="slide" data-content="content-5">
+							<div class="img-wrap"><img src="img/5.jpg" alt="img5"/></div>
+							<h2>S05<span>Text</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 06 -->
+						<div class="slide" data-content="content-6">
+							<div class="img-wrap"><img src="img/6.jpg" alt="img6"/></div>
+							<h2>S06<span>TEXT</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 07 -->
+						<div class="slide" data-content="content-7">
+							<div class="img-wrap"><img src="img/7.jpg" alt="img7"/></div>
+							<h2>S07<span>TEXT</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+						<!-- SECTION HEADER 08 -->
+						<div class="slide" data-content="content-8">
+							<div class="img-wrap"><img src="img/8.jpg" alt="img8"/></div>
+							<h2>S08 <span>Text</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+					</div>
+				</section>
+				<!-- /img-dragger-->
+				
+				<!-- Content section -->
+				
+				<section class="pages">
+
+					<!-- SECTION CONTENT 01 -->
+					<div class="content" data-content="content-1">
+						<h2>S01 <span>OVERVIEW TEXT</span></h2>
+						<p>It was not child's play tackling those horses. Some of the kind-hearted station folk in the backblocks had sent down some wild warrigals of the West; bucking brumbies that beat the band; old outlaws off the grass that the station hands could never master. 
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 02 -->
+					<div class="content" data-content="content-2">
+						<h2>S02 <span>OVERVIEW TEXT</span></h2>
+						<p>Passing by the rugged Socotra, we soon sighted the mountainous southern coast of Arabia, and by midday on January 20 we were focussing our binoculars on the picturesque gate of the Indian Ocean, Aden. Curious it is how Britain has secured all the great strategical points of the world—Gibraltar, Suez, Aden, Singapore, Thursday Island, the Cape of Good Hope, and the rest. 
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 03 -->
+					<div class="content" data-content="content-3">
+						<h2>S03 <span>OVERVIEW TEXT</span></h2>
+						<p>I am living Egypt, living.... Your pyramids and your mosques and your old Nile can talk to me of things long past and gone, and I shall listen with interest to what they have to say, but I would rather be a living dog of an Egyptian than the dead lion of an Egyptian king—I would rather be a moving, talking native dressed in garish clothes than a Prince of the House of Rameses, sans eyes, sans ears, sans tongue, in the shrivelled brown form of a mummy.
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 04 -->
+					<div class="content" data-content="content-4">
+						<h2>S04 <span>OVERVIEW TEXT</span></h2>
+						<p>One could not help contrasting this large force from Australia and New Zealand—a force that was to be doubled and trebled ere long—with the little force of 500 men which William Bede Dalley, Australian Orator and Patriot, sent from New South Wales to the Sudan just thirty years before. 
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 05 -->
+					<div class="content" data-content="content-5">
+						<h2>S05 <span>OVERVIEW TEXT</span></h2>
+						<p>You had heard of the Plagues of Egypt; we have seen them, and are able to vouch for the authenticity of the Scriptures. Instead of hot cross buns, Easter brought us a plague of locusts. </p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 06 -->
+					<div class="content" data-content="content-6">
+						<h2>S06 <span>OVERVIEW TEXT</span></h2>
+						<p>One night stands out—a gorgeous night—a carnival in honour and aid of brave little Serbia. Kipling says that "East is east and west is west, and never the twain shall meet"; but he surely has not seen a Venetian carnival in Cairo, with its intermingling of the progressive Occident and the picturesque Orient. 
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 07 -->
+					<div class="content" data-content="content-7">
+						<h2>S07 <span>OVERVIEW TEXT</span></h2>
+						<p>But even a plague of locusts does not last for ever—and Egypt does. </p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+
+					<!-- SECTION CONTENT 08 -->
+					<div class="content" data-content="content-8">
+						<h2>S08 <span>OVERVIEW TEXT</span></h2>
+						<p>The casualties among the officers were tremendous—brave men who led Australia's soldiers in that awful charge! And among the bravest of them were the young officers from the Duntroon Military College that stands amid delightful country surroundings near the capital of Federated Australia that is now in the making in the Mother State of New South Wales. 
+						</p>
+						<p class="related">
+							You might also like <a href="http://tympanus.net/Development/ArticleIntroEffects/">Inspiration for Article Intro Effects</a>
+						</p>
+					</div>
+				</section>
+			</div>
+		</div><!-- /container --> 
+		<script src="js/dragdealer.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/dragslideshow.js"></script>
+		<script>
+			(function() {
+
+				var overlay = document.getElementById( 'overlay' ),
+					overlayClose = overlay.querySelector( 'button' ),
+					header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							classie.add( switchBtnn, 'view-maxi' );
+						}
+						else {
+							classie.remove( switchBtnn, 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.add( header, 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.remove( header, 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+					closeOverlay = function() {
+						classie.add( overlay, 'hide' );
+					};
+
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+				// close overlay
+				overlayClose.addEventListener( 'click', closeOverlay );
+
+			}());
+		</script>
+	</body>
+</html>
