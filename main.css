@@ -1,5 +1,11 @@
 /* */
 
+/* Instructional Guide Overlay */
+h4.overlay-instructions-about {
+    letter-spacing: .5em;
+    padding-bottom: 1.5em;
+    font-weight: 100;
+}
 
 /* S02 header */
 .js .slide h2.slogan-quote {
