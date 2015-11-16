@@ -7,33 +7,6 @@ h4.overlay-instructions-about {
     font-weight: 100;
 }
 
-/* page button up and down */
-/* i.content-switch.fa.fa-chevron-down {
-    border: white 1px solid;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    width: 160px;
-    overflow: hidden;
-    white-space: nowrap;
-    background: transparent;
-    position: absolute;
-    cursor: pointer;
-    top: 100%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%,-200%,0);
-    padding: 1em 2em;
-    font-size: 0.85em;
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    z-index: 1000;
-    opacity: 0.7;
-}
-*/
-
-
 /* S01 header */
 .slide.SH1.current {
     background: url(http://biomath.math.nd.edu/compbio/PhoneNetwork/continental0p001.gif);
