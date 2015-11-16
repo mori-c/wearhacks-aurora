@@ -352,13 +352,18 @@ button.content-switch::before {
 	height: auto;
 	-webkit-transition: none;
 	transition: none;
+	padding-top: 6em;
 }
 
 .pages .content h2 {
-	font-size: 5em;
+	/* font-size: 5em;*/
+	font-size: 3em;
 	max-width: 70%;
 	color: #34495e;
-	padding: 2.25em 10px 1em;
+	/* padding: 2.25em 10px 1em; */
+	font-family: 'Futura';
+	margin: 0 auto;
+	display: block;
 }
 
 .no-js .pages .content h2 {
@@ -367,15 +372,21 @@ button.content-switch::before {
 
 .pages .content h2 span {
 	color: #95a5a6;
+	padding: 1.5em 0 0.5em 0;
+	    text-align: center;
+	    margin: 0 auto;
+	    display: block;
 }
 
 .pages .content p {
 	max-width: 1100px;
 	margin: 0 auto;
 	padding: 0.5em 2em;
-	line-height: 1.5;
-	text-align: left;
-	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	line-height: 1.85;
+    text-align: left;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: .125em;
 }
 
 .pages .content p:last-child {
