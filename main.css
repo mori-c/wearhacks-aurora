@@ -35,3 +35,19 @@ img.aurora-skeleton-viz-img-2 {
     font-weight: 800;
 }
 
+/* SH04 */
+.slide.SH4.current {
+    background: url(https://cloud.githubusercontent.com/assets/4642277/11177486/dfb4d4ec-8c13-11e5-89ca-515bdc105ae5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(88,133,159,.5);
+    z-index: 0;
+    background: rgb(0,0,0);
+}
+
+img.aurora-skeleton-viz-img-inside-02c {
+    opacity: .25;
+    transform: scale(0.73);
+    padding-bottom: 1em;
+    z-index: 2;
+}
