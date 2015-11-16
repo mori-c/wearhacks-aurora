@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'feathericons';
-	src:url('../fonts/feathericons/feathericons.eot?2h4ajg');
-	src:url('../fonts/feathericons/feathericons.eot?#iefix2h4ajg') format('embedded-opentype'),
-		url('../fonts/feathericons/feathericons.woff?2h4ajg') format('woff'),
-		url('../fonts/feathericons/feathericons.ttf?2h4ajg') format('truetype'),
-		url('../fonts/feathericons/feathericons.svg?2h4ajg#feathericons') format('svg');
+	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?2h4ajg');
+	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?#iefix2h4ajg') format('embedded-opentype'),
+		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.woff?2h4ajg') format('woff'),
+		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.tff?2h4ajg') format('truetype'),
+		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.svg?2h4ajg#feathericons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
