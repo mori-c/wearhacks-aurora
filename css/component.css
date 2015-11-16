@@ -251,33 +251,34 @@ button.slider-switch:hover {
 }
 
 button.content-switch {
-	content: 'fa fa-caret-down';
-	border: 2px solid #fff;
-	width: 160px;
-	text-indent: 200%;
-	overflow: hidden;
-	white-space: nowrap;
-	background: transparent;
-	color: #fff;
-	/* font-family: 'Lato', sans-serif; */
-	font-family: 'font-awesome';
-	position: absolute;
-	cursor: pointer;
-	top: 100%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-200%,0);
-	transform: translate3d(-50%,-200%,0);
-	padding: 1em 2em;
-	font-size: 0.85em;
-	line-height: 1;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	outline: none;
-	z-index: 1000;
-	opacity: 0.7;
-	-webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
-	transition: transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
+	background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_down-32.png);
+    /* content: 'fa fa-caret-down'; */
+    /* border: 2px solid #fff; */
+    /* width: 160px; */
+    /* text-indent: 200%; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* background: transparent; */
+    /* color: #fff; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'font-awesome'; */
+    position: absolute;
+    /* cursor: pointer; */
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-200%,0);
+    transform: translate3d(-50%,-200%,0);
+    padding: 1em 2em;
+    /* font-size: 0.85em; */
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* font-weight: 400; */
+    /* outline: none; */
+    z-index: 1000;
+    /* opacity: 0.7; */
+    -webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
+    transition: transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .no-js button.content-switch {
@@ -289,8 +290,9 @@ button.content-switch:hover {
 }
 
 button.content-switch::before {
-	content: '\e097';
-	font-family: 'font-awesome';
+	/* content: '\e097';
+	font-family: 'font-awesome'; */
+	background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_down-32.png);
 	speak: none;
 	position: absolute;
 	width: 100%;
@@ -311,8 +313,9 @@ button.content-switch::before {
 }
 
 .show-content .current button.content-switch::before {
-	/* content: '\e096'; */
-	content: 'fa fa-caret-up';
+	/* content: '\e096';
+	content: 'fa fa-caret-up'; */
+	background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_down-32.png);
 }
 
 /* Content */
