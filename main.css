@@ -1,1 +1,13 @@
-gh-pages
+/* */
+
+
+/* S02 header */
+h2 .slogan-quote {
+    line-height: 1.5em;
+    font-size: 80%;
+    font-style: italic;
+    letter-spacing: .5em;
+    border: 1px solid;
+    padding: .5em;
+}
+
