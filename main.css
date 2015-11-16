@@ -7,6 +7,14 @@ h4.overlay-instructions-about {
     font-weight: 100;
 }
 
+/* S01 header */
+.slide.SH1.current {
+    background: url(http://biomath.math.nd.edu/compbio/PhoneNetwork/continental0p001.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(88,133,159,.5);
+}
+
 /* S02 header */
 .js .slide h2.slogan-quote {
     font-weight: 100;
