@@ -222,6 +222,7 @@ button.slider-switch:hover {
 	text-align: center;
 	color: #34495e;
 	-webkit-animation: slideUpFade 0.4s 0.1s;
+	font-size: 70%;
 }
 
 @-webkit-keyframes slideUpFade {
@@ -245,6 +246,7 @@ button.slider-switch:hover {
 	animation-delay: 0s;
 	-webkit-transition: color 0.3s, opacity 0.3s;
 	transition: color 0.3s, opacity 0.3s;
+	font-size:70%;
 }
 
 .slide h2 i {
