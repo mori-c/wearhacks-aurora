@@ -112,10 +112,9 @@ img.aurora-skeleton-viz-img-inside-5 {
     background: url(https://s-media-cache-ak0.pinimg.com/originals/2e/e6/99/2ee6998e34c3e2eff7b894c66cfc5267.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,.5);
+    /* background-color: rgba(0,0,0,.5); */
     background-position: center center;
     z-index: 0;
-    transform: scale(1.5);
 }
 
 img.aurora-skeleton-viz-img-inside-6 {
