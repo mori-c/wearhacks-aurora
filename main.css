@@ -109,7 +109,8 @@ img.aurora-skeleton-viz-img-inside-5 {
 /* SH06 - Tech */
 .slide.SH6 {
     /* 2 matrix graphing  */
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/2e/e6/99/2ee6998e34c3e2eff7b894c66cfc5267.gif);
+    /* background: url(https://s-media-cache-ak0.pinimg.com/originals/2e/e6/99/2ee6998e34c3e2eff7b894c66cfc5267.gif); Dark */
+    background: url(https://im.ezgif.com/tmp/ezgif-3657156666.gif); /* Light / slowed gif with http://ezgif.com/ */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: rgba(0,0,0,.5); */
