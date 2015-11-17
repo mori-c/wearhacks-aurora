@@ -142,7 +142,7 @@ button.slider-switch:hover {
 	display: inline-block;
 	position: relative;
 	height: 100%;
-	background: #567076;
+	/* background: #567076; */
 	font-size: 16px;
 	white-space: normal;
 	cursor: -webkit-grab; 
