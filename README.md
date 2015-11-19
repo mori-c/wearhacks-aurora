@@ -5,7 +5,7 @@ Project Aurora, a consulted WearHacks Installation
 https://connieleung.github.io/aurora/index2.html
 
 ## Intro
-### Slogan for Aurora
+#### Slogan for Aurora
 
 ## New Medium on Data Engagement
 Is there another title we should go by?
