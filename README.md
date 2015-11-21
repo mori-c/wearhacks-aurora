@@ -1,4 +1,4 @@
-# aurora
+# AURORA
 Project Aurora WearHacks Installation
 
 
