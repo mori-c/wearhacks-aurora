@@ -1,4 +1,7 @@
-OVERALL LAYOUT
+# Layout 
+
+## OVERALL LAYOUT
+
 http://tympanus.net/Development/DraggableDualViewSlideshow/ (draggable vertical + horizontal slider)
 http://tympanus.net/Development/SectionSeparators/ (section separators)
 http://tympanus.net/Development/TripleViewLayout/ (horizontal)
@@ -12,7 +15,7 @@ https://codyhouse.co/demo/page-scroll-effects/index.html (classic basic parallax
 
 
 
-HEADER
+## HEADER
 http://tympanus.net/codrops/2015/03/31/prism-effect-slider-canvas/ (transparent svg optical illusion)
 http://tympanus.net/Development/AnimatedHeaderBackgrounds/ (particle cosmos animation)
 http://tympanus.net/Development/HoverEffectIdeas/ (mouse hover interaction)
@@ -21,7 +24,7 @@ https://codyhouse.co/demo/animated-page-transition/index.html (page A to page B)
 https://codyhouse.co/demo/hero-slider/index.html (slider with animations + media)
 
 
-NAVIGATION
+## NAVIGATION
 http://tympanus.net/Development/MorphingSearch/ (full screen site mapp search popup)
 http://tympanus.net/codrops/2013/08/06/creative-link-effects/ (mouse hover interaction)
 http://tympanus.net/Blueprints/PageStackNavigation/ (self titled)
@@ -29,13 +32,13 @@ http://tympanus.net/Blueprints/ZoomSlider/ (rolodex select zoom popup)
 https://codyhouse.co/demo/vertical-fixed-navigation/index.html (fixed vertical right nav dots)
 https://codyhouse.co/demo/full-page-intro-and-navigation/index.html (self titled) [header; nav]
 
-BODY / VISUAL CONTENT
+## BODY / VISUAL CONTENT
 http://tympanus.net/Development/ImageTiltEffect/ (self titled)
 http://tympanus.net/Development/PhotographyWebsiteConcept/ (portfolio gallery style)
 
-FOOTER
+## FOOTER
 
-CTA / FORMS
+## CTA / FORMS
 http://tympanus.net/codrops/2014/07/30/fullscreen-form-interface/ (input form)
 http://tympanus.net/Development/SelectInspiration/ (select elements)
 http://tympanus.net/Development/SimpleDropDownEffects/ (select element)
@@ -45,23 +48,15 @@ http://tympanus.net/codrops/2013/08/06/creative-link-effects/ (mouse hover inter
 http://tympanus.net/Development/MultiElementSelection/ (select element)
 https://codyhouse.co/demo/responsive-newsletter-form/index.html (input error-notification form)
 
-ANNOTATIONS
+## ANNOTATIONS
 http://tympanus.net/Development/RoomDisplay/ (mouse click event ann.)
 http://tympanus.net/Development/DragDropInteractions (self titled)
 http://tympanus.net/Development/TooltipStylesInspiration/ (hover box popup)
 https://codyhouse.co/demo/points-of-interest/index.html (circle plus sign)
 
-DATA VISUALIZATION
+## DATA VISUALIZATION
 http://tympanus.net/codrops/2015/09/23/elastic-progress/ (progress data bar)
 
-DOCUMENT / ARTICLE
+## DOCUMENT / ARTICLE
 https://codyhouse.co/demo/2-blocks-template/index.html (horz slide image + text)
 https://codyhouse.co/demo/animated-page-transition-2/index.html (left nav bar page anim)
-
-
-WAM
-.UNRELATED
-WAM LOGO http://tympanus.net/Development/InteractiveParticlesSlideshow/
-Infinity Room Gfx:
-https://codyhouse.co/demo/fixed-background-effect/index.html
-https://codyhouse.co/demo/expandable-project-presentation/index.html
