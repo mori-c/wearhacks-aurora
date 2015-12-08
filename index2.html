@@ -11,13 +11,27 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico" -->
     <link href="http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="https://github.com/connieleung/aurora/blob/gh-pages/main.css" />
-    <script src="js/modernizr.custom.js"></script>
+
+    <!-- Site layout - dragable slider -->
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	    <link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+	    <link rel="stylesheet" type="text/css" href="css/component.css" />
+	    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	    <link rel="stylesheet" type="text/css" href="https://github.com/connieleung/aurora/blob/gh-pages/main.css" />
+	    <script src="js/modernizr.custom.js"></script>
+
+    <!-- Animated header background -->
+	    <!--
+		    See demo and tutorial:
+		    res/lib/plugins/AnimatedHdrBG/index.html
+	    -->
+	   	<link rel="stylesheet" type="text/css" href="res/lib/plugins/AnimatedHdrBG/css/component.css">
+	   	<link rel="stylesheet" type="text/css" href="res/lib/plugins/AnimatedHdrBG/css/demo.css">
+	   	<link rel="stylesheet" type="text/css" href="res/lib/plugins/AnimatedHdrBG/css/normalize.css">
+
+
+
     <style>
 
     /* #site-title */
@@ -325,10 +339,21 @@
 
             <!-- SECTION CONTENT 07: partnership information  -->
                 <div class="content" data-content="content-7">
-                    <h2>Partnerships + Media <span>Client + Profile Enhancing List</span></h2>
-                    <p>
-                        logos. gallery page
-                    </p>
+                    <h2><a href="res/lib/plugins/AnimatedHdrBG/index.html">Demo</a> of <a href="http://tympanus.net/Development/AnimatedHeaderBackgrounds/">original</a>
+                    </h2>
+                    <h4>formerly "Partnerships + Media <span>Client + Profile Enhancing List</span></h4>
+                    <!-- start Animated Header BG -->
+                    <div class="container demo-1">
+						<div class="content">
+							<div id="large-header" class="large-header">
+								<canvas id="demo-canvas"></canvas>
+								<h1 class="main-title">
+									Connect <span class="thin">Three</span>
+								</h1>
+							</div>
+						</div>
+					</div>
+                    <!-- end Animated Header BG -->
                 </div>
             <!-- end SECTION CONTENT 07: partnership information  -->
 
@@ -402,6 +427,17 @@
 		    }());
 	    </script>
 	    <!-- END AURORA site drag layout -->
+
+    	<!-- Animated header background -->
+		    <!--
+			    See demo and tutorial:
+			    res/lib/plugins/AnimatedHdrBG/index.html
+		    -->
+		   	<script type="text/javascript" scr="res/lib/plugins/AnimatedHdrBG/js/demo-1.js"></script>
+		   	<script type="text/javascript" scr="res/lib/plugins/AnimatedHdrBG/js/EasePack.min.js"></script>
+		   	<script type="text/javascript" scr="res/lib/plugins/AnimatedHdrBG/js/rAF.js"></script>
+	   		<script type="text/javascript" scr="res/lib/plugins/AnimatedHdrBG/js/TweenLite.min.js"></script>
+    	<!-- end Animated header background -->
 
 	</body>
 </html>
