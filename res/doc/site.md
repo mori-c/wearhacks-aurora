@@ -4,6 +4,7 @@
 - BG .gif
 - H1 Aurora
 - Logo http://tympanus.net/Development/InteractiveParticlesSlideshow/
+- Type 
 
 ## 2 - Slogan
 - BG .jpg
