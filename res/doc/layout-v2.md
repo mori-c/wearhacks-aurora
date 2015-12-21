@@ -7,7 +7,7 @@ https://github.com/hakimel/reveal.js (HTML slider presentation framework)
 
 # NAVIGATION
 http://lab.hakim.se/flexing-pagination/ (animated arrows) (https://github.com/hakimel/css/tree/master/flexing-pagination)
-
+https://github.com/anthonyly/Scrolline.js (top thin horizontal scroll bar)
 
 
 
@@ -16,11 +16,13 @@ http://lab.hakim.se/flexing-pagination/ (animated arrows) (https://github.com/ha
 #### HEADER SPECIAL EFFECTS
 http://matthew.wagerfield.com/flat-surface-shader/ (poly surfacer)
 https://codyhouse.co/demo/animated-intro-section/mask.html (animated header type title intro)
-
+https://github.com/codrops/TextStylesHoverEffects (TextStylesHoverEffects-master-takiri)
 
 	## HS: Intro
 	http://tympanus.net/Development/AnimatedHeaderBackgrounds/ (particle cosmos animation)
 	http://codepen.io/connieleung/pen/bENJJw?editors=001#0
+	http://tympanus.net/Tutorials/AnimatedTextFills/index19.html
+	http://tympanus.net/Tutorials/AnimatedTextFills/index22.html
 
 
 	## HS: Demo 1
@@ -28,6 +30,7 @@ https://codyhouse.co/demo/animated-intro-section/mask.html (animated header type
 
 
 	## HS: Demo 2
+	https://github.com/ndrwhr/cloth-simulation 
 
 	## HS: Tech - Abilities
 
@@ -53,11 +56,13 @@ https://codyhouse.co/demo/animated-intro-section/mask.html (animated header type
 	## HS: CTA
 	http://tympanus.net/Development/ButtonComponentMorph/index3.html (ButtonComponentFull-ScreenMorphIntoFullPage-Index3 : https://github.com/codrops/ButtonComponentMorph/)
 	http://tympanus.net/codrops/2014/07/30/fullscreen-form-interface/ (input form)
+	e.g. http://www.wearcityhack.com/register.html
 
 
 
 # INNER SECTIONS
 https://codyhouse.co/demo/page-scroll-effects/gallery.html (bordered sections parallax)
+http://projects.lukehaas.me/scrollify/ (assists scrolling and smoothly snaps to sections: )
 
 	## SC: Intro
 
@@ -86,6 +91,7 @@ https://codyhouse.co/demo/page-scroll-effects/gallery.html (bordered sections pa
 
 
 	## SC: Locations
+	https://github.com/connieleung/Reel (360º)
 
 	## SC: Benefits
 
@@ -124,5 +130,6 @@ http://tympanus.net/Development/PhotographyWebsiteConcept/ (portfolio gallery st
 http://tympanus.net/Blueprints/OnScrollEffectLayout/ (parallax)
 
 http://www.creativebloq.com/css3/make-kinetic-typography-video-css-5135642
+https://unsplash.com/ (placeholder)
 
 
