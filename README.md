@@ -1,5 +1,6 @@
 # AURORA
-Project Aurora WearHacks Installation
+
+~~Project Aurora WearHacks Installation~~
 
 ![WearHacks Logo](https://avatars3.githubusercontent.com/u/8497023?s=200&v=4) [WearHacks](https://github.com/wearhacks) / First & Shadow Consulting Partnership
 
